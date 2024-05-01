@@ -1,0 +1,25 @@
+a {
+    position: relative; /* Make the <a> elements positioned relative */
+    text-decoration: none; /* Remove default underline */
+    color:black;
+    white-space:nowrap;
+    padding:10px;
+    margin:10px;
+    background-color:white;
+}
+
+a::after {
+    content: ""; /* Add an empty content */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align it to the left */
+    bottom: -2px; /* Align it to the bottom with a small offset */
+    width: 100%; /* Make it the full width of the <a> element */
+    height: 2px; /* Set the height of the line */
+    background-color: transparent; /* Set the initial color of the line */
+    transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add a transition effect */
+}
+
+a:hover::after {
+    width: 100%; /* Expand the width of the line */
+    background-color: #000; /* Change the color of the line on hover */
+}
