@@ -84,13 +84,12 @@ const Slidersponsor = () => {
         style={{ width: "1000px", height: "80px", borderRadius: "4px",paddingLeft:"80px",paddingRight:"0px"}}
         className="navigation-btn2"
       >
-        {youtubevideos.map((item) => (<>
+        {youtubevideos.map((item) => (
           <SwiperSlide key={item.id}>
              {/* <a href={item.video}><img width={"100%"} height={"100%"} src={item.img} alt="" /></a> */}
              <img src={item.img} width={60} height={60} alt="sponsor" />
           </SwiperSlide>
-          
-       </>))}
+          ))}
       </Swiper>
     </Box>
   )

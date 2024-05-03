@@ -27,7 +27,7 @@ const malumotlar = [
 
 const Footer = () => {
   return (
-    <Box sx={{display:"flex",paddingTop:"20px",height:"40vh",background:"linear-gradient(103deg, rgb(32, 45, 76) 10.55%, rgb(19, 33, 65) 92.66%)",}}>
+    <Box sx={{display:"flex",paddingTop:"20px",background:"linear-gradient(103deg, rgb(32, 45, 76) 10.55%, rgb(19, 33, 65) 92.66%)",}}>
        <Box sx={{width:"260px",textAlign:"center",marginLeft:"300px",marginRight:"30px"}}>
        <img src={logo} width={100} height={100} alt="logo" /> 
        <Typography sx={{width:"100%",marginRight:'0px',fontSize:"20px",marginLeft:"10px",lineHeight:'25px',color:"#FFF"}}>Televizion texnologiyalar fakulteti 

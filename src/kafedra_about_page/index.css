@@ -1,0 +1,7 @@
+a:hover {
+  border-bottom: none;
+}
+a:hover::after {
+    width: 100%;
+    background: none;
+}

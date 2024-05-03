@@ -50,7 +50,7 @@ const Slider = () => {
     <Box >
       <Swiper
         modules={[Navigation, Autoplay, Pagination, Scrollbar]}
-        spaceBetween={50}
+        spaceBetween={20}
         speed={800}
         autoplay={{
           delay: 4000,       
@@ -60,7 +60,7 @@ const Slider = () => {
         pagination={true}
         slidesPerView={1}
         navigation
-        style={{ width: "1070px", height: "450px", borderRadius: "4px" }}
+        style={{ width: "1090px",marginLeft:"120px", height: "450px", borderRadius: "4px" }}
         className="navigation-btn"
       >
         {youtubevideos.map((item) => (

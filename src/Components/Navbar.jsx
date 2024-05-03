@@ -10,19 +10,19 @@ const Navbar = () => {
     <Box sx={{display:'flex',marginTop:"30px",alignItems:"center"}}>
         <Box display={"flex"} sx={{width:"40%",alignItems:"center",marginRight:"0px",cursor:"pointer"}}>
         <img src={logo} width={70} height={70} style={{backgroundColor:"white",marginRight:"0px",marginLeft:"100px"}} alt="logo" />
-        <Typography sx={{width:"180px",marginRight:'0px',fontSize:"12px",marginLeft:"10px",lineHeight:'14px'}}>
+        <Typography sx={{width:"180px",marginRight:'0px',fontSize:"13px",marginLeft:"10px",lineHeight:'16px'}}>
             Televizion texnologiyalar fakulteti 
             Televizion va media texnologiyalar kafedrasi
             </Typography> 
         </Box>
         <Box sx={{width:"100%",marginLeft:"130px",display:"flex"}}>
-            <a href="">Kafedra</a>
-            <a href="">Tadbir</a> 
-            <a href="">Guruhlar</a>
-            <a href="">Iqtidorli talabalar</a>
-            <a href="">Dissertatsiya</a>
-            <a href="">{"Yo'nalishlar"}</a>
-            <a href="">Aloqa</a>
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="/kafedra">Kafedra</a>
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Tadbir</a> 
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Guruhlar</a>
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Iqtidorli talabalar</a>
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Dissertatsiya</a>
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">{"Yo'nalishlar"}</a>
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Aloqa</a>
         </Box>
     </Box>      
     </>
