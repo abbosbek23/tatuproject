@@ -81,7 +81,7 @@ const Slidersponsor = () => {
         pagination={true}
         slidesPerView={5}
         navigation
-        style={{ width: "1000px", height: "80px", borderRadius: "4px",paddingLeft:"80px",paddingRight:"0px"}}
+        style={{ width: "1080px", height: "80px", borderRadius: "4px",paddingLeft:"70px",paddingRight:"0px"}}
         className="navigation-btn2"
       >
         {youtubevideos.map((item) => (

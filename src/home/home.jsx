@@ -27,7 +27,7 @@ const Home = () => {
           <Slider/>
         </Box>
         <Box sx={{marginBottom:"20px"}}>
-          <Typography sx={{fontSize:"27px",marginLeft:"160px",marginBottom:"20px"}}>Bizning Hamkorlar</Typography>
+          <Typography sx={{fontSize:"27px",marginLeft:"140px",marginBottom:"20px"}}>Bizning Hamkorlar</Typography>
           <Slidersponsor/>
         </Box>
         
