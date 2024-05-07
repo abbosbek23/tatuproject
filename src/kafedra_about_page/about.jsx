@@ -153,6 +153,9 @@ const About = () => {
          <Box sx={{marginLeft:"auto",marginRight:"auto",width:"80%",marginBottom:"20px"}}>
           <Teachers/>
          </Box>
+         <Box>
+          
+         </Box>
     </Box>
   )
 }
