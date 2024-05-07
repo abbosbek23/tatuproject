@@ -70,7 +70,7 @@ const Slidersponsor = () => {
     <Box>
       <Swiper
         modules={[Navigation, Autoplay, Pagination, Scrollbar]}
-        spaceBetween={point620 ? 90 : 100}
+        spaceBetween={point620 ? 10 : 100}
         speed={800}
         autoplay={{
           delay: 2000,
@@ -78,8 +78,8 @@ const Slidersponsor = () => {
         }}
         loop={true}
         pagination={true}
-        slidesPerView={5}
-        navigation
+        slidesPerView={point620 ? 2 : 5}
+        navigation={point620 ? false : true}
         style={{
           width: "100%",
           height: "80px",
