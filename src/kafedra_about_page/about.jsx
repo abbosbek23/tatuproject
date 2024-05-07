@@ -154,7 +154,6 @@ const About = () => {
           <Teachers/>
          </Box>
          <Box>
-          
          </Box>
     </Box>
   )
