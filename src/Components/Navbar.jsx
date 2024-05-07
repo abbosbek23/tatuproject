@@ -3,8 +3,6 @@ import logo from "../assets/logo.png";
 import { Box } from "@mui/system";
 import { Typography } from "@mui/material";
 import "./index.css";
-import { useState } from "react";
-import useMediaQuery from "@mui/material/useMediaQuery";
 
 const Navbar = () => {
   const [clicded, setClicked] = useState(false);
@@ -12,14 +10,7 @@ const Navbar = () => {
   const point620 = useMediaQuery("(max-width:620px)");
   return (
     <>
-      <Box
-        sx={{
-          display: "flex",
-          marginTop: "30px",
-          alignItems: "center",
-          justifyContent: "space-between",
-        }}
-      >
+      <Box sx={{ display: "flex", marginTop: "30px", alignItems: "center" }}>
         <Box
           display={"flex"}
           sx={{
@@ -35,6 +26,8 @@ const Navbar = () => {
             height={70}
             style={{
               backgroundColor: "white",
+              marginRight: "0px",
+              marginLeft: "100px",
             }}
             alt="logo"
           />
