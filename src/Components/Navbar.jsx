@@ -1,8 +1,9 @@
 // import React from 'react'
 import logo from "../assets/logo.png";
 import { Box } from "@mui/system";
-import { Typography } from "@mui/material";
+import { Typography, useMediaQuery } from "@mui/material";
 import "./index.css";
+import { useState } from "react";
 
 const Navbar = () => {
   const [clicded, setClicked] = useState(false);
@@ -18,6 +19,7 @@ const Navbar = () => {
             alignItems: "center",
             marginRight: "0px",
             cursor: "pointer",
+            marginLeft: point620 && "30px",
           }}
         >
           <img
@@ -27,15 +29,15 @@ const Navbar = () => {
             style={{
               backgroundColor: "white",
               marginRight: "0px",
-              marginLeft: "100px",
             }}
             alt="logo"
           />
           <Typography
             sx={{
               width: "180px",
+              minWidth: "160px",
               marginRight: "0px",
-              fontSize: "13px",
+              fontSize: point620 ? "11px" : "13px",
               marginLeft: "10px",
               lineHeight: "16px",
             }}
@@ -162,6 +164,7 @@ const Navbar = () => {
               background: "transparent",
               border: "none",
               cursor: "pointer",
+              marginRight: point620 && "30px",
             }}
             onClick={() => setClicked(true)}
           >
