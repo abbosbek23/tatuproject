@@ -20,7 +20,7 @@ const Navbar = () => {
         </Box>
         <Box sx={{width:"100%",marginLeft:"130px",display:"flex"}}>
             <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="/kafedra">Kafedra</a>
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Tadbir</a> 
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="/tadbirlar">Tadbir</a> 
             <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Guruhlar</a>
             <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Iqtidorli talabalar</a>
             <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Dissertatsiya</a>
