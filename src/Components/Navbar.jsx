@@ -46,113 +46,45 @@ const Navbar = () => {
             texnologiyalar kafedrasi
           </Typography>
         </Box>
-        <Box
-          sx={{
-            position: point1100 && "absolute",
-            zIndex: point1100 && "1",
-            top: point1100 && "0",
-            right: point1100 && (clicded ? "0" : "-300px"),
-            width: point1100 ? "300px" : "100%",
-            display: "flex",
-            flexDirection: point1100 && "column",
-            transition: "linear all 300ms",
-          }}
-        >
-          {clicded ? (
-            <button
-              style={{
-                width: "30px",
-                height: "30px",
-                border: "none",
-                background: "transparent",
-                cursor: "pointer",
-              }}
-              className="burgerBtn"
-              onClick={() => setClicked(false)}
-            ></button>
-          ) : (
-            ""
-          )}
+        <Box sx={{ width: "100%", marginLeft: "130px", display: "flex" }}>
           <a
-            style={{
-              borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
-              margin: point1100 && "0",
-              padding: point1100 && "25px 15px",
-            }}
+            style={{ fontFamily: "Poppins, sans-serif", fontWeight: "500" }}
             href="/kafedra"
           >
             Kafedra
           </a>
           <a
-            style={{
-              borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
-              margin: point1100 && "0",
-              padding: point1100 && "25px 15px",
-            }}
+            style={{ fontFamily: "Poppins, sans-serif", fontWeight: "500" }}
             href=""
           >
             Tadbir
           </a>
           <a
-            style={{
-              borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
-              margin: point1100 && "0",
-              padding: point1100 && "25px 15px",
-            }}
+            style={{ fontFamily: "Poppins, sans-serif", fontWeight: "500" }}
             href=""
           >
             Guruhlar
           </a>
           <a
-            style={{
-              borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
-              margin: point1100 && "0",
-              padding: point1100 && "25px 15px",
-            }}
+            style={{ fontFamily: "Poppins, sans-serif", fontWeight: "500" }}
             href=""
           >
             Iqtidorli talabalar
           </a>
           <a
-            style={{
-              borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
-              margin: point1100 && "0",
-              padding: point1100 && "25px 15px",
-            }}
+            style={{ fontFamily: "Poppins, sans-serif", fontWeight: "500" }}
             href=""
           >
             Dissertatsiya
           </a>
           <a
-            style={{
-              borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
-              margin: point1100 && "0",
-              padding: point1100 && "25px 15px",
-            }}
+            style={{ fontFamily: "Poppins, sans-serif", fontWeight: "500" }}
             href=""
           >
             {"Yo'nalishlar"}
           </a>
           <a
-            style={{
-              borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
-              margin: point1100 && "0",
-              padding: point1100 && "25px 15px",
-            }}
+            style={{ fontFamily: "Poppins, sans-serif", fontWeight: "500" }}
             href=""
           >
             Aloqa
