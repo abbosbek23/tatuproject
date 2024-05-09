@@ -22,8 +22,8 @@ const Navbar = () => {
             <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="/kafedra">Kafedra</a>
             <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="/tadbirlar">Tadbir</a> 
             <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Guruhlar</a>
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Iqtidorli talabalar</a>
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Dissertatsiya</a>
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="/iqtidorlilar">Iqtidorlilar</a>
+            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="/dissertatsiya">Dissertatsiya</a>
             <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">{"Yo'nalishlar"}</a>
             <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Aloqa</a>
         </Box>
