@@ -4,47 +4,59 @@ import { Box } from "@mui/system";
 import { Typography, useMediaQuery } from "@mui/material";
 import "./index.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [clicded, setClicked] = useState(false);
   const point1100 = useMediaQuery("(max-width:1100px)");
   const point620 = useMediaQuery("(max-width:620px)");
   return (
-    <Box>
-      <Box sx={{ display: "flex", marginTop: "30px", alignItems: "center" }}>
-        <Box
-          display={"flex"}
-          sx={{
-            width: "40%",
-            alignItems: "center",
-            marginRight: "0px",
-            cursor: "pointer",
-            marginLeft: point620 && "30px",
-          }}
-        >
-          <img
-            src={logo}
-            width={70}
-            height={70}
+    <>
+      <Box
+        sx={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "30px",
+          alignItems: "center",
+        }}
+      >
+        <Box display={"flex"}>
+          <Link
+            to={"/"}
             style={{
-              backgroundColor: "white",
+              display: "flex",
+              width: "100%",
+              alignItems: "center",
               marginRight: "0px",
-            }}
-            alt="logo"
-          />
-          <Typography
-            sx={{
-              width: "180px",
-              minWidth: "160px",
-              marginRight: "0px",
-              fontSize: point620 ? "11px" : "13px",
-              marginLeft: "10px",
-              lineHeight: "16px",
+              cursor: "pointer",
             }}
           >
-            Televizion texnologiyalar fakulteti Televizion va media
-            texnologiyalar kafedrasi
-          </Typography>
+            <img
+              src={logo}
+              width={70}
+              height={70}
+              style={{
+                backgroundColor: "white",
+                marginRight: "0px",
+              }}
+              alt="logo"
+            />
+            <p
+              style={{
+                width: "150px",
+                whiteSpace: "wrap",
+                marginRight: "0px",
+                fontSize: "14px",
+                marginLeft: "10px",
+                lineHeight: "18px",
+                fontWeight: "500",
+              }}
+            >
+              Televizion texnologiyalar fakulteti Televizion va media
+              texnologiyalar kafedrasi
+            </p>
+          </Link>
         </Box>
         <Box
           sx={{
@@ -52,7 +64,7 @@ const Navbar = () => {
             zIndex: point1100 && "1",
             top: point1100 && "0",
             right: point1100 && (clicded ? "0" : "-300px"),
-            width: point1100 ? "300px" : "100%",
+            width: point1100 ? "300px" : "770px",
             display: "flex",
             flexDirection: point1100 && "column",
             transition: "linear all 300ms",
@@ -93,7 +105,7 @@ const Navbar = () => {
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
-            href=""
+            href="/tadbirlar"
           >
             Tadbir
           </a>
@@ -157,14 +169,6 @@ const Navbar = () => {
           >
             Aloqa
           </a>
-        <Box sx={{width:"100%",marginLeft:"130px",display:"flex"}}>
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="/kafedra">Kafedra</a>
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="/tadbirlar">Tadbir</a> 
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Guruhlar</a>
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Iqtidorli talabalar</a>
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Dissertatsiya</a>
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">{"Yo'nalishlar"}</a>
-            <a style={{fontFamily:"Poppins, sans-serif",fontWeight:"500"}} href="">Aloqa</a>
         </Box>
         {point1100 && (
           <button
@@ -180,7 +184,7 @@ const Navbar = () => {
           </button>
         )}
       </Box>
-    </Box>
+    </>
   );
 };
 
