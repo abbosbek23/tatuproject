@@ -230,13 +230,13 @@ const About = () => {
         {"KAFEDRA BAKALAVRIAT TA’LIM YO‘NALISHI"}
       </Typography>
       <Box sx={{display:'flex',flexWrap:"wrap",width:"100%",paddingInline: point560 ? "0px":"100px",gap:"0px"}}>
-          <Box sx={{width:point560 ? "100%":"47%",height: point560 ? "420px" : "400px",marginBottom:"20px",padding:"15px 15px",border:"1px solid #B5B5B5",borderRadius:"12px",marginRight:"20px",marginLeft:"20px"}}>
+          <Box sx={{width:point560 ? "100%":"46%",height: point560 ? "420px" : "400px",marginBottom:"20px",padding:"15px 15px",border:"1px solid #B5B5B5",borderRadius:"12px",marginRight:"20px",marginLeft:"20px"}}>
             <img height={"90%"} style={{borderRadius:"8px",objectFit:"cover"}} width={"100%"} src={audiovizual} alt="audiovizual" />
-            <Typography sx={{textAlign: point560 ? "" : "center",marginTop:"0px",fontSize: point560 ? "12px" : "16px"}}>Televizion texnologiyalar(Audiovizual texnologiyalar)</Typography>
+            <Typography sx={{textAlign: point560 ? "" : "center",marginTop:"10px",fontSize: point560 ? "12px" : "16px"}}>Televizion texnologiyalar(Audiovizual texnologiyalar)</Typography>
           </Box>
-          <Box sx={{width:point560 ? "100%":"47%",height: point560 ? "420px":"400px",marginBottom:"20px",padding:"15px 15px",border:"1px solid #B5B5B5",borderRadius:"12px",marginLeft:"20px",marginRight:"20px"}}>
+          <Box sx={{width:point560 ? "100%":"46%",height: point560 ? "420px":"400px",marginBottom:"20px",padding:"15px 15px",border:"1px solid #B5B5B5",borderRadius:"12px",marginLeft:"20px",marginRight:"20px"}}>
             <img height={"90%"} style={{borderRadius:"8px",objectFit:"cover"}} width={"100%"} src={telestudiya} alt="telestudiya" />
-            <Typography sx={{textAlign: point560 ? "" : "center",marginTop:"0px",fontSize: point560 ? "12px" : "16px"}}>Televizion texnologiyalar(Telestudiya tizimlari va ilovalari)</Typography>
+            <Typography sx={{textAlign: point560 ? "" : "center",marginTop:"10px",fontSize: point560 ? "12px" : "16px"}}>Televizion texnologiyalar(Telestudiya tizimlari va ilovalari)</Typography>
             </Box>
          </Box>
       <Typography
