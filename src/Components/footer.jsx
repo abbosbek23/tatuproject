@@ -1,6 +1,9 @@
 // import React from 'react'
 import { Box, Typography } from "@mui/material";
 import logo from "../assets/logo.png";
+import telegram from "../assets/telegram.svg"
+import instagram from "../assets/instagram.png"
+import youtube from "../assets/youtube.png"
 
 const malumotlar = [
   {
@@ -73,6 +76,14 @@ const Footer = () => {
             </li>
           ))}
         </ul>
+      </Box>
+      <Box>
+        <Typography sx={{color:"#FFF",fontSize:"20px"}}>
+          Ijtimoiy Tarmoqlar
+        </Typography>
+        <a href="https://t.me/TATU_TTF_Rasmiy_kanal" style={{background:"none",marginLeft:"0px",marginRight:"0px",padding:"0px"}}><img src={telegram} alt="telegram" /></a>
+        <a href="https://www.instagram.com/tuit_avt?igsh=YWY0Mno1MDB5OHlv" style={{background:"none",marginLeft:"10px",padding:"0px"}}><img src={instagram} alt="instagram" /></a>
+        <a href="http://www.youtube.com/@muhammadal-xorazmiynomidag7499" style={{background:"none",padding:"0px",marginLeft:"0px"}}><img src={youtube} alt="youtube" /></a>
       </Box>
     </Box>
   );
