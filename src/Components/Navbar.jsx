@@ -129,7 +129,7 @@ const Navbar = () => {
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
-            href=""
+            href="/iqtidorlilar"
           >
             Iqtidorli talabalar
           </a>
@@ -141,7 +141,7 @@ const Navbar = () => {
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
-            href=""
+            href="/dissertatsiya"
           >
             Dissertatsiya
           </a>
