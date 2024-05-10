@@ -43,8 +43,8 @@ const Iqtidorlibitiruvchilar = () => {
         <Grid container spacing={2} sx={{paddingInline:"30px"}}>
           {iqtidorlibitiruvchilar.map((teacher) => (
             <Grid  item xs={12} sm={6} md={4} lg={4} key={teacher.id}>
-              <div style={{border:"1px solid black",padding:"20px",width:"100%",height:"500px",borderRadius:"10px",borderColor:"#B5B5B5",textAlign:"center"}}>
-                <img style={{marginLeft:"0px",objectFit:"fill"}} width={"100%"} height={"76%"} src={teacher.image} alt={teacher.name} />
+              <div style={{border:"1px solid black",padding:"20px",width:"100%",height:"600px",borderRadius:"10px",borderColor:"#B5B5B5",textAlign:"center"}}>
+                <img style={{marginLeft:"0px",height:"68%",objectFit:"cover"}} width={"100%"}  src={teacher.image} alt={teacher.name} />
                 <Typography sx={{marginInline:"10px"}}>{teacher.name}</Typography>
                 <Typography sx={{fontSize:"15px",marginInline:"15px"}}>{teacher.description}</Typography>
               </div>

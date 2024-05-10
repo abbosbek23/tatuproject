@@ -96,11 +96,11 @@ const About = () => {
           </Typography>
          <Box sx={{display:'flex',width:"100%",padding:"0px 100px",gap:"0px"}}>
           <Box sx={{width:"50%",height:"400px",marginBottom:"20px",padding:"15px 15px",border:"1px solid #B5B5B5",borderRadius:"12px",marginRight:"20px"}}>
-            <img height={"90%"} style={{borderRadius:"8px"}} width={"100%"} src={audiovizual} alt="audiovizual" />
+            <img height={"90%"} style={{borderRadius:"8px",objectFit:"cover"}} width={"100%"} src={audiovizual} alt="audiovizual" />
             <Typography sx={{textAlign:"center",marginTop:"10px"}}>Televizion texnologiyalar(Audiovizual texnologiyalar)</Typography>
           </Box>
           <Box sx={{width:"50%",height:"400px",marginBottom:"20px",padding:"15px 15px",border:"1px solid #B5B5B5",borderRadius:"12px",marginLeft:"20px"}}>
-            <img height={"90%"} style={{borderRadius:"8px"}} width={"100%"} src={telestudiya} alt="telestudiya" />
+            <img height={"90%"} style={{borderRadius:"8px",objectFit:"cover"}} width={"100%"} src={telestudiya} alt="telestudiya" />
             <Typography sx={{textAlign:"center",marginTop:"10px"}}>Televizion texnologiyalar(Telestudiya tizimlari va ilovalari)</Typography>
             </Box>
          </Box>
@@ -110,7 +110,7 @@ const About = () => {
          <Box sx={{display:'flex',flexWrap:"wrap",width:"100%",padding:"0px 100px",gap:"23px"}}>
          {
            magistraturayonalishlar.map((item)=><Box key={item.id} sx={{width:"49%",height:"400px",marginBottom:"20px",padding:"15px 15px",border:"1px solid #B5B5B5",borderRadius:"12px",marginRight:"0px",marginLeft:"0px",marginTop:"20px"}}>
- <img height={"90%"} style={{borderRadius:"8px"}} width={"100%"} src={item.img} alt="telestudiya" />
+ <img height={"90%"} style={{borderRadius:"8px",objectFit:"contain"}} width={"100%"} src={item.img} alt="telestudiya" />
             <Typography sx={{textAlign:"center",marginTop:"10px"}}>{item.name}</Typography>
            </Box>)
          }

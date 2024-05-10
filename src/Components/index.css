@@ -23,3 +23,6 @@ a:hover::after {
     width: 100%; /* Expand the width of the line */
     background-color: #000; /* Change the color of the line on hover */
 }
+#footer {
+    transition: 0.5s ease-in;
+}

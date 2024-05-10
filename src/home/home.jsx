@@ -12,7 +12,7 @@ const Home = () => {
     <>
         
         <Box sx={{display:"flex",width:"100%",marginLeft:"0px",marginTop:"10px"}}>
-          <img style={{width:"100%",height:"600px",objectFit:"fill"}} src={homeimage} alt="" />  
+          <img style={{width:"100%",height:"550px",objectFit:"fill"}} src={homeimage} alt="" />  
         </Box>
         <Box sx={{marginTop:"20px",padding:"0px 130px"}}>
           <Typography sx={{fontSize:"27px",marginLeft:"0px"}}>{"Bo'limlar"}</Typography>
