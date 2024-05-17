@@ -83,7 +83,7 @@ const About = () => {
           padding: point560 ? "10px 50px" : "20px 100px",
           marginBlock: "20px 50px",
           background:
-            "linear-gradient(103deg, rgb(32, 45, 76) 10.55%, rgb(19, 33, 65) 92.66%);",
+            "#095b97",
           flexDirection: point750 && "column",
         }}
       >
@@ -176,6 +176,16 @@ const About = () => {
             </a>
           </Typography>
         </Box>
+      </Box>
+      <Box
+        sx={{
+          marginLeft: "auto",
+          marginRight: "auto",
+          width: point560 ? "90%":"80%",
+          marginBottom: "20px",
+        }}
+      >
+        <Teachers />
       </Box>
       <Box
         sx={{ padding: point560 ? "0 40px" : point750 ? "0 50px" : "0 100px" }}
@@ -353,16 +363,7 @@ const About = () => {
           </Box>
         </Box>
       </Box>
-      <Box
-        sx={{
-          marginLeft: "auto",
-          marginRight: "auto",
-          width: point560 ? "90%":"80%",
-          marginBottom: "20px",
-        }}
-      >
-        <Teachers />
-      </Box>
+      
       <Box></Box>
     </Box>
   );

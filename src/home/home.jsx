@@ -22,7 +22,7 @@ const Home = () => {
       >
         <img
           style={{
-            width: "100%",
+            width: "90%",
             height: point620 ? "auto" : "600px",
             objectFit: "fill",
           }}
