@@ -1,6 +1,12 @@
-a {
-  position: relative; /* Make the <a> elements positioned relative */
-  text-decoration: none; /* Remove default underline */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+/* a {
+  position: relative;
+  text-decoration: none; 
   color: black;
   white-space: nowrap;
   padding: 10px;
@@ -9,20 +15,20 @@ a {
 }
 
 a::after {
-  content: ""; /* Add an empty content */
-  position: absolute; /* Position it absolutely */
-  left: 0; /* Align it to the left */
-  bottom: -2px; /* Align it to the bottom with a small offset */
-  width: 100%; /* Make it the full width of the <a> element */
-  height: 2px; /* Set the height of the line */
-  background-color: transparent; /* Set the initial color of the line */
-  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add a transition effect */
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  bottom: -2px; 
+  width: 100%; 
+  height: 2px;
+  background-color: transparent; 
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; 
 }
 
 a:hover::after {
-  width: 100%; /* Expand the width of the line */
-  background-color: #000; /* Change the color of the line on hover */
-}
+  width: 100%; 
+  background-color: #000; 
+} */
 
 .burgerBtn {
   top: 15px;
@@ -53,4 +59,25 @@ a:hover::after {
 }
 #footer {
     transition: 0.5s ease-in;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  color: white;
+  text-transform: uppercase;
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 600;
+font-weight: 500;
+}
+
+a:hover {
+  color: #595d61;
+  border-bottom: 2px solid #007BFF;
+}
+
+.burgerBtn::before {
+  content: "✕";
+  font-size: 24px;
+  color: black;
 }

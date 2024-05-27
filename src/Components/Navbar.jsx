@@ -7,7 +7,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [clicded, setClicked] = useState(false);
+  const [clicked, setClicked] = useState(false);
   const point1100 = useMediaQuery("(max-width:1100px)");
   const point620 = useMediaQuery("(max-width:620px)");
   return (
@@ -17,8 +17,10 @@ const Navbar = () => {
           width: "100%",
           display: "flex",
           justifyContent: "center",
-          marginTop: "30px",
+          marginTop: "0px",
           alignItems: "center",
+          backgroundColor:"#212529",
+          padding:"10px",
         }}
       >
         <Box display={"flex"}>
@@ -39,17 +41,18 @@ const Navbar = () => {
               style={{
                 backgroundColor: "white",
                 marginRight: "0px",
+                borderRadius: "51px",
               }}
               alt="logo"
             />
             <p
               style={{
-                width: "150px",
+                width: "200px",
                 whiteSpace: "wrap",
                 marginRight: "0px",
-                fontSize: "14px",
+                fontSize: "13px",
                 marginLeft: "10px",
-                lineHeight: "18px",
+                lineHeight: "14px",
                 fontWeight: "500",
               }}
             >
@@ -63,14 +66,15 @@ const Navbar = () => {
             position: point1100 && "absolute",
             zIndex: point1100 && "1",
             top: point1100 && "0",
-            right: point1100 && (clicded ? "0" : "-300px"),
+            right: point1100 && (clicked ? "0" : "-300px"),
             width: point1100 ? "300px" : "770px",
             display: "flex",
             flexDirection: point1100 && "column",
             transition: "linear all 300ms",
+            background: point1100 && "white", // Add background for mobile view
           }}
         >
-          {clicded ? (
+          {clicked && (
             <button
               style={{
                 width: "30px",
@@ -82,14 +86,12 @@ const Navbar = () => {
               className="burgerBtn"
               onClick={() => setClicked(false)}
             ></button>
-          ) : (
-            ""
           )}
           <a
             style={{
               borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
+              
+             
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -100,8 +102,8 @@ const Navbar = () => {
           <a
             style={{
               borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
+              
+              
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -112,8 +114,8 @@ const Navbar = () => {
           <a
             style={{
               borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
+              
+              
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -124,8 +126,8 @@ const Navbar = () => {
           <a
             style={{
               borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
+              
+              
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -136,8 +138,8 @@ const Navbar = () => {
           <a
             style={{
               borderBottom: point1100 && "1px solid #000",
-              fontFamily: "Poppins, sans-serif",
-              fontWeight: "500",
+              
+              
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -145,7 +147,6 @@ const Navbar = () => {
           >
             Dissertatsiya
           </a>
-      
         </Box>
         {point1100 && (
           <button

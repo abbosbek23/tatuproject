@@ -77,7 +77,7 @@ const Slidersponsor = () => {
           disableOnInteraction: false,
         }}
         loop={true}
-        pagination={true}
+        // pagination={true}
         slidesPerView={point620 ? 2 : 5}
         navigation={point620 ? false : true}
         style={{

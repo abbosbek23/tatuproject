@@ -55,7 +55,7 @@ const Slider = () => {
           disableOnInteraction: false,
         }}
         loop={true}
-        pagination={true}
+        // pagination={true}
         slidesPerView={1}
         navigation
         style={{
