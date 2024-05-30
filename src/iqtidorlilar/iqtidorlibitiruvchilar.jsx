@@ -10,9 +10,14 @@ import Sertifikategasi2 from "../assets/Sertifikategasi2.jpg";
 import Sertifikategasi3 from "../assets/Sertifikategasi3.png";
 import Sertifikat1 from "../assets/Sertifikat1.jpg";
 import Sertifikat2 from "../assets/Sertifikat2.jpg";
-import Sertifikat3 from "../assets/Sertifikat3.jpg";
+import Sertifikat3 from "../assets/Sertifikat3.jpg";  
 import { Grid } from "@mui/material";
 import { useMediaQuery } from '@mui/material';
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+`;
 
 const iqtidorlibitiruvchilar = [
   {
@@ -89,6 +94,7 @@ const Iqtidorlibitiruvchilar = () => {
             marginBottom: "15px",
             marginLeft: "30px",
           }}
+          className="text2"
         >
           {"Iqtidorli Bitiruvchilar"}
         </Typography>
@@ -97,10 +103,10 @@ const Iqtidorlibitiruvchilar = () => {
             <Grid item xs={12} sm={6} md={4} lg={4} key={teacher.id}>
               <div style={{border:"1px solid black",padding:"20px",width:"100%",height:"600px",borderRadius:"10px",borderColor:"#B5B5B5",textAlign:"center"}}>
                 <img style={{marginLeft:"0px",height:"76%",objectFit:"cover"}} width={"100%"}  src={teacher.image} alt={teacher.name} />
-                <Typography sx={{ marginInline: "10px",fontSize:point620 ? "14px":"18px" }}>
+                <Typography className="text2" sx={{ marginInline: "10px",fontSize:point620 ? "14px":"18px" }}>
                   {teacher.name}
                 </Typography>
-                <Typography sx={{ fontSize: point620 ? "12px" : "15px", marginInline: "15px" }}>
+                <Typography className="text2" sx={{ fontSize: point620 ? "12px" : "15px", marginInline: "15px" }}>
                   {teacher.description}
                 </Typography>
               </div>
@@ -116,6 +122,7 @@ const Iqtidorlibitiruvchilar = () => {
             marginBottom: "15px",
             marginLeft: "30px",
           }}
+          className="text2"
         >
           {"Iqtidorli O'quvchilar"}
         </Typography>
@@ -124,7 +131,7 @@ const Iqtidorlibitiruvchilar = () => {
             <Grid item xs={12} sm={6} md={4} lg={4} key={teacher.id}>
               <div style={{border:"1px solid black",padding:"20px",width:"100%",height:"550px",borderRadius:"10px",borderColor:"#B5B5B5",textAlign:"center"}}>
                 <img style={{marginLeft:"0px",height:"92%",objectFit:"cover"}} width={"100%"}  src={teacher.image} alt={teacher.name} />
-                <Typography sx={{ marginInline: "0px",fontSize:point620 ? "14px":"18px"}}>
+                <Typography className="text2" sx={{fontFamily:"Monseratt, sans-serif",fontWeight:"500", marginInline: "0px",fontSize:point620 ? "14px":"18px"}}>
                   {teacher.name}
                 </Typography>
                 <button
@@ -137,6 +144,7 @@ const Iqtidorlibitiruvchilar = () => {
             </Grid>
           ))}
         </Grid>
+        <GlobalStyle />
       </Box>
     </>
   );
