@@ -29,12 +29,12 @@ const Tadbirlar = () => {
   return (
     <Box>
       <Typography
-        sx={{
+         sx={{
           fontSize: point500 ? "18px" : "24px",
           marginLeft: point770 ? "30px" : "145px",
         }}
       >
-        Tadbirlardan photo lavhalar va yangiliklar
+        Ilmiy va uslubiy tadbirlar
       </Typography>
       <Box
         sx={{
@@ -84,6 +84,13 @@ const Tadbirlar = () => {
           {tadbirlar_photo[1].description}
         </Typography>
       </Box>
+      <Typography 
+       sx={{
+        fontSize: point500 ? "18px" : "24px",
+        marginLeft: point770 ? "30px" : "145px",
+      }}>
+      Manaviy va Marifiy tadbirlar
+      </Typography>
       <Box
         sx={{
           paddingInline: "25px",
@@ -107,6 +114,7 @@ const Tadbirlar = () => {
         <Typography sx={{ fontSize: point500 && "13px", marginTop: "10px" }}>
           {tadbirlar_photo[2].description}
         </Typography>
+        
       </Box>
     </Box>
   );

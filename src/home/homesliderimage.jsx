@@ -10,7 +10,7 @@ import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
 import homeimage from "../assets/homesliderimage1.jpg";
 import homeimage2 from "../assets/homesliderimage2.jpeg";
 import homeimage3 from "../assets/homesliderimage3.jpeg";
-
+import tatumainimage from "../assets/tuitmainimage.png";
 
 const Homesliderimage = () => {
   return (
@@ -48,7 +48,10 @@ const Homesliderimage = () => {
         </SwiperSlide>  
         <SwiperSlide>
           <img style={{objectFit:"fill",width:"100%"}} src={homeimage3} alt="sponsor" />
-        </SwiperSlide>  
+        </SwiperSlide>
+        <SwiperSlide>
+          <img style={{objectFit:"fill",width:"100%"}} src={tatumainimage} alt="sponsor" />
+        </SwiperSlide>   
       </Swiper>
     </Box>
   );

@@ -4,6 +4,8 @@ import logo from "../assets/logo.png";
 import telegram from "../assets/telegram.svg"
 import instagram from "../assets/instagram.png"
 import youtube from "../assets/youtube.png"
+import twitter from "../assets/twitter.png"
+import facebook from "../assets/facebook.png"
 
 const malumotlar = [
   {
@@ -81,9 +83,13 @@ const Footer = () => {
         <Typography sx={{color:"#FFF",fontSize:"20px"}}>
           Ijtimoiy Tarmoqlar
         </Typography>
-        <a href="https://t.me/TATU_TTF_Rasmiy_kanal" style={{background:"none",marginLeft:"0px",marginRight:"0px",padding:"0px"}}><img src={telegram} alt="telegram" /></a>
-        <a href="https://www.instagram.com/tuit_avt?igsh=YWY0Mno1MDB5OHlv" style={{background:"none",marginLeft:"10px",padding:"0px"}}><img src={instagram} alt="instagram" /></a>
-        <a href="http://www.youtube.com/@muhammadal-xorazmiynomidag7499" style={{background:"none",padding:"0px",marginLeft:"0px"}}><img src={youtube} alt="youtube" /></a>
+        <Box sx={{display:"flex",alignItems:"center",gap:"5px"}}>
+        <a href="https://t.me/TATU_TTF_Rasmiy_kanal" style={{background:"none"}}>     <img style={{width:"40px",height:"40px"}} src={telegram} alt="telegram" /></a>
+        <a href="https://www.instagram.com/tmt_kafedrasi_tatu?igsh=MTZpOXM5MmFhZjdm" style={{background:"none"}}><img style={{width:"40px",height:"40px"}} src={instagram} alt="instagram" /></a>
+        <a href="http://www.youtube.com/@muhammadal-xorazmiynomidag7499" style={{background:"none"}}>   <img style={{width:"40px",height:"40px"}} src={youtube} alt="youtube" /></a>
+        <a href="http://www.youtube.com/@muhammadal-xorazmiynomidag7499" style={{background:"none"}}>   <img style={{width:"40px",height:"35px"}} src={facebook} alt="facebook" /></a>
+        <a href="http://www.youtube.com/@muhammadal-xorazmiynomidag7499" style={{background:"none",marginLeft:"3px"}}>   <img style={{width:"40px",height:"35px"}} src={twitter} alt="twitter" /></a>
+        </Box>
       </Box>
     </Box>
   );

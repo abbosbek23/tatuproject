@@ -7,11 +7,15 @@ import Slider from "./slider";
 import Slidersponsor from "./slidersponsor";
 // import ReactPlayer from 'react-player';
 import Homesliderimage from "./homesliderimage";
+import Locationwebsite from "../Components/locationwebsite";
 
 const Home = () => {
   const point620 = useMediaQuery("(max-width:620px)");
   return (
     <Box>
+     <Box>
+      <Locationwebsite name={"Bosh sahifa"}/>
+      </Box> 
       <Box
         sx={{
           marginBottom: "30px",
