@@ -5,6 +5,7 @@ import iqtidorlibitiruvchilar11 from "../assets/iqtidorlibitiruvchilar.jpg";
 import iqtidorlibitiruvchilar22 from "../assets/iqtidorlibitiruvchilar2.jpg";
 import iqtidorlibitiruvchilar33 from "../assets/iqtidorlibitiruvchilar3.jpg";
 import iqtidorlibitiruvchilar44 from "../assets/iqtidorlibitiruvchilar4.jpg";
+import iqtidorlibitiruvchilar5 from "../assets/iqtidorlibitiruvchilar5.jpg";
 import Sertifikategasi1 from "../assets/Sertifikategasi1.jpg";
 import Sertifikategasi2 from "../assets/Sertifikategasi2.jpg";
 import Sertifikategasi3 from "../assets/Sertifikategasi3.png";
@@ -14,6 +15,7 @@ import Sertifikat3 from "../assets/Sertifikat3.jpg";
 import { Grid } from "@mui/material";
 import { useMediaQuery } from '@mui/material';
 import { createGlobalStyle } from 'styled-components';
+import LocationWebsite from "../Components/locationwebsite";
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
@@ -46,6 +48,12 @@ const iqtidorlibitiruvchilar = [
       "Mudofaa vazirligi Axborot va Ommaviy Kommunikatsiyalar Departamenti Multimedia Bo‘lim boshlig‘i o‘rinbosari Videomontaj bo‘linmasi boshlig‘i",
     image: iqtidorlibitiruvchilar44,
   },
+  {
+    id:5,
+    name:"Asror Iskandarov",
+    description:"Shaxsiy Brend qurish Tajriba +4-yil, Mediatech It School asoschisi va rahbari",
+    image:iqtidorlibitiruvchilar5,
+  }
 ];
 
 const iqtidorlioquvchilar = [
@@ -86,6 +94,7 @@ const Iqtidorlibitiruvchilar = () => {
   const point620 = useMediaQuery("(max-width:620px)");
   return (
     <>
+        <LocationWebsite name={"Iqtidorlilar"}/>
       <Box sx={{ width: "100%", paddingInline: point620 ? "0px" : "50px", marginBlock: "20px" }}>
         <Typography
           sx={{

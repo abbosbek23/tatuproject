@@ -2,6 +2,7 @@
 import { Box, Typography, useMediaQuery } from "@mui/material";
 import dissertatsiyaimg1 from "../assets/dissertatsiyaimg1.png";
 import dissertatsiyaimg2 from "../assets/dissertatsiyaimg2.png";
+import LocationWebsite from "../Components/locationwebsite";
 
 const dissertatsiyalar = [
   {
@@ -23,6 +24,8 @@ const dissertatsiyalar = [
 const Dissertatsiya = () => {
   const point500 = useMediaQuery("(max-width:500px)");
   return (
+    <Box>
+      <LocationWebsite name={"Dissertatsiya"}/>
     <Box
       display={"flex"}
       sx={{
@@ -59,6 +62,7 @@ const Dissertatsiya = () => {
           </Typography>
         </Box>
       ))}
+    </Box>
     </Box>
   );
 };

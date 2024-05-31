@@ -17,6 +17,11 @@ import adiblar2 from "../assets/adiblar2.jpg"
 import adiblar3 from "../assets/adiblar3.jpg"
 import adiblar4 from "../assets/adiblar4.jpg"
 import adiblar5 from "../assets/adiblar5.jpg"
+import otochirish1 from "../assets/otochirish1.jpg"
+import otochirish2 from "../assets/otochirish2.jpg"
+import otochirish3 from "../assets/otochirish3.jpg"
+import otochirish4 from "../assets/otochirish4.jpg"
+import otochirish5 from "../assets/otochirish5.jpg"
 
 export const tadbirlar_photo = [
     {
@@ -33,5 +38,10 @@ export const tadbirlar_photo = [
             id:3,
             description:"Bugun, Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti Televizion texnologiyalar fakulteti jamoasi ishtirokida \"Atoqli o'zbek yozuvchisi, dramaturgi Said Ahmad va shoira Saida Zunnunovalar\"ning hayoti va ijodiga bag‘ishlab ma’naviy-ma'rifiy tadbir tashkil etildi. Tadbirda ustozlar tomonidan adiblarning mashaqqatli lekin sharafli hayot yoʻlini, o‘zbek milliy adabiyotiga qo‘shgan ulkan hissalarini, millatimiz ravnaqi yo‘lida qilgan fidokorona xizmatlarini yoshlarga tanishtirib ularga ibrat sifatida targʻib qilindi. Mazkur tadbir doirasida talabalar adib va adibalarning hayoti va ijodi haqida professor-o'qituvchilar ma'ruzalari orqali to'liq ma'lumotlar olishdi. Shunigdek Adiblar xiyobonida o‘tkazilgan tadbirda turli xil ko'ngil ochar o'yinlar va sport musobaqalari tashkil etildi.",
             image:[adiblar1,adiblar2,adiblar3,adiblar4,adiblar5]
-    }
+    },
+    {
+        id: 4,
+        description: "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti va O‘zbekiston Respublikasi Favqulodda vaziyatlar Vazirligi Fuqaro muhofazasi instituti bilan hamkorlikda \"Favqulodda vaziyatlarda to‘g‘ri harakatlanish va fuqaro muhofazasi\" bo‘yicha bilimlarini oshirish hamda tayyorgarlik ko‘rish bo‘yicha malaka oshirish darslari tashkil etildi.",
+        image: [otochirish1, otochirish2, otochirish3, otochirish4, otochirish5]
+   }
 ]
