@@ -13,23 +13,25 @@ import teacher10 from "../assets/teacher10.png";
 import teacher11 from "../assets/teacher11.png";
 import teacher12 from "../assets/teacher12.png";
 import teacher13 from "../assets/teacher13.png";
+import teacher15 from "../assets/teacher15.jpg";
 import { Grid } from '@mui/material';
 import { Box } from '@mui/material';
 
 const teacherData = [
     { id: 1, name: "Nuraliyev Faxriddin Murodillayevich", profession: "texnika fanlari doktori, professor", image: teacher1 },
-    { id: 2, name: "Muhamadiyev Abduvali Shukurovich", profession: "fizika – matematika fanlari doktori, dotsent", image: teacher2 },
+    { id: 2, name: "Muhamadiyev Abduvali Shukurovich", profession: "fizika – matematika fanlari doktori, professor", image: teacher2 },
     { id: 3, name: "Beknazarova Saida Safibullayevna", profession: "texnika fanlari doktori, professor", image: teacher3 },
     { id: 4, name: "Bazar Bazarbaev Batir Joldasovich", profession: "dotsent", image: teacher4 },
-    { id: 5, name: "Qayumova Gulshan Asrorovna", profession: "Phd, katta o‘qituvchi", image: teacher5 },
+    { id: 5, name: "Qayumova Gulshan Asrorovna", profession: "Phd, dotsent", image: teacher5 },
     { id: 6, name: "Umarova Dildora Baxtiyorovna", profession: "PHD, dotsent", image: teacher6 },
     { id: 7, name: "Yusupova Natalya Yuryevna", profession: "PHD, dotsent", image: teacher7 },
-    { id: 8, name: "Ismailov Komolitdin Saidaxmadovich", profession: "katta o‘qituvchi", image: teacher8 },
+    { id: 8, name: "Ismailov Komoliddin Saidaxmadovich", profession: "dotsent", image: teacher8 },
     { id: 9, name: "Tashmuxammedova Gulnora Xudayberdiyevna", profession: "katta o‘qituvchi", image: teacher9 },
     { id: 10, name: "Saidov Farrux Faxriddinovich", profession: "katta o‘qituvchi", image: teacher10 },
     { id: 11, name: "Saliyev Marat Maxmudovich", profession: "katta o‘qituvchi", image: teacher11 },
-    { id: 12, name: "Modullayev Jahongir Sobir o‘g‘li", profession: "assistent", image: teacher12 },
+    { id: 12, name: "Modullayev Jahongir Sobir o‘g‘li", profession: "katta o'qituvchi", image: teacher12 },
     { id: 13, name: "Tastanova Saida Aldiyarovna", profession: "assistent", image: teacher13 },
+    {id: 14, name: "Ortiqova Feruza", profession: "katta o'qituvchi", image: teacher15}
   ];
 
 const Teachers = () => {

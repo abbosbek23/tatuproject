@@ -101,7 +101,7 @@ const Navbar = () => {
             }}
             href="/kafedra"
           >
-            Kafedra
+            Kafedra tarkibi va faoliyati
           </a>
           <a
             style={{
@@ -110,10 +110,24 @@ const Navbar = () => {
               color: point620 && "black",
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
+              fontSize:"16px"
             }}
-            href="/tadbirlar"
+            href="/manaviy"
           >
-            Tadbir
+            {"Ma'naviy"} va {"Ma'rifiy"} tadbirlar
+          </a>
+          <a
+            style={{
+              borderBottom: point1100 && "1px solid #000",
+              
+              color: point620 && "black",
+              margin: point1100 && "0",
+              padding: point1100 && "25px 15px",
+              fontSize:"16px"
+            }}
+            href="/ilmiy"
+          >
+            {"O'quv"} va uslubiy tadbirlar
           </a>
           <a
             style={{
@@ -121,22 +135,24 @@ const Navbar = () => {
               color: point620 && "black",
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
-            }}
-            href="/iqtidorlilar"
-          >
-            Iqtidorli talabalar
-          </a>
-          <a
-            style={{
-              borderBottom: point1100 && "1px solid #000",
-              color: point620 && "black",
-              margin: point1100 && "0",
-              padding: point1100 && "25px 15px",
+              fontSize:"16px"
             }}
             href="/dissertatsiya"
           >
-            Dissertatsiya
+            Ilmiy ishlar
           </a>
+            <a
+              style={{
+                borderBottom: point1100 && "1px solid #000",
+                color: point620 && "black",
+                margin: point1100 && "0",
+                padding: point1100 && "25px 15px",
+                fontSize:"16px"
+              }}
+              href="/iqtidorlilar"
+            >
+              Iqtidorli talabalar
+            </a>
         </Box>
         {point1100 && (
           <button
