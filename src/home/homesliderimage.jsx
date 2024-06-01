@@ -14,6 +14,7 @@ import homeimage4 from "../assets/homesliderimage5.jpg";
 import homeimage5 from "../assets/homesliderimage6.jpg";
 import homeimage6 from "../assets/homesliderimage7.jpg";
 import tatumainimage from "../assets/tuitmainimage.png";
+import homeimage1 from "../assets/homeimage1.jpg";
 
 const Homesliderimage = () => {
   return (
@@ -32,7 +33,7 @@ const Homesliderimage = () => {
         navigation
         style={{
           width: '100%',
-          // height: "80vh",
+          height: "80vh",
         }}
         breakpoints={{
           380: {
@@ -41,9 +42,9 @@ const Homesliderimage = () => {
             pagination: false,
             navigation: false,
           },
-          1140:{
+          1140:{  
             slidesPerView: 1,
-            height: "80vh",
+            height: "40vh",
           }
         }}
       >
@@ -64,8 +65,8 @@ const Homesliderimage = () => {
         <SwiperSlide>
           <img style={{
             // width:"100%",maxWidth:"100%",height:"100%","@media (max-width:450px)":{objectFit:"none",width:"100%",maxWidth:"100%",height:"100%"}
-            objectFit:"cover",width:"100%",height:"210px","@media (max-width:450px)":{objectFit:"none",width:"100%"}  
-            }} src={tatumainimage} alt="sponsor" />
+            maxWidth:"100%",objectFit:"cover",width:"100%",height:"100%","@media (max-width:450px)":{objectFit:"none",width:"100%"}  
+            }} src={homeimage1} alt="sponsor" />
         </SwiperSlide>
         <SwiperSlide>
           <img style={{objectFit:"cover",width:"100%",height:"100%","@media (max-width:450px)":{objectFit:"none",width:"100%"}}} src={homeimage2} alt="sponsor" />
