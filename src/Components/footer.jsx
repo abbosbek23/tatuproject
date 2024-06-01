@@ -73,7 +73,7 @@ const Footer = () => {
         </Typography>
         <ul>
           {malumotlar.map((item) => (
-            <li style={{ marginBlock: "5px", color: "white" }} key={item.id}>
+            <li style={{ marginBlock: "5px", color: "white",fontWeight:"500" }} key={item.id}>
               {item.text}
             </li>
           ))}

@@ -64,18 +64,18 @@ const Navbar = () => {
         </Box>
         <Box
           sx={{
-            position: point1100 && "absolute",
-            zIndex: point1100 && "3",
-            top: point1100 && "0",
-            right: point1100 && (clicked ? "0" : "-400px"),
-            paddingTop: point1100 && "100px",
+            position: point620 && "absolute",
+            zIndex: point620 && "3",
+            top: point620 && "0",
+            right: point620 && (clicked ? "0" : "-500px"),
+            paddingTop: point620 && "100px",
             textAlign: "center",
-            width: point1100 ? "100%" : "770px",
-            height: point1100 ? "100%" : "",
+            width: point620 ? "100%" : "770px",
+            height: point620 ? "100%" : "",
             display: "flex",
-            flexDirection: point1100 && "column",
+            flexDirection: point620 && "column",
             transition: "linear all 300ms",
-            background: point1100 && "white", // Add background for mobile view
+            background: point620 && "white", // Add background for mobile view
           }}
         >
           {clicked && (
@@ -114,17 +114,6 @@ const Navbar = () => {
             href="/tadbirlar"
           >
             Tadbir
-          </a>
-          <a
-            style={{
-              borderBottom: point1100 && "1px solid #000",
-              color: point620 && "black",
-              margin: point1100 && "0",
-              padding: point1100 && "25px 15px",
-            }}
-            href=""
-          >
-            Guruhlar
           </a>
           <a
             style={{
