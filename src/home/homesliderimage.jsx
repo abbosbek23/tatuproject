@@ -38,6 +38,8 @@ const Homesliderimage = () => {
           450: {
             slidesPerView: 1,
             height: "30vh",
+            pagination: false,
+            navigation: false,
           },
           1140:{
             slidesPerView: 1,
