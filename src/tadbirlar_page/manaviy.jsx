@@ -5,7 +5,7 @@ import { Typography } from '@mui/material';
 import { useMediaQuery } from '@mui/material';
 import { tadbirlar_photo } from "./tadbirlardata";
 import "./index.css";
-import LocationWebsite from "../Components/locationwebsite";
+// import LocationWebsite from "../Components/locationwebsite";
 
 const Manaviy = () => {
 
@@ -19,7 +19,7 @@ const Manaviy = () => {
 
   return (
     <Box>
-        <LocationWebsite name={"Tadbirlar/Manaviy va Madaniy"}/>
+        {/* <LocationWebsite name={"Tadbirlar/Manaviy va Madaniy"}/> */}
         <Typography 
        sx={{
         fontSize: point500 ? "18px" : "24px",

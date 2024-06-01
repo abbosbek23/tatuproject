@@ -2,7 +2,7 @@
 import { Box, Typography, useMediaQuery } from "@mui/material";
 import dissertatsiyaimg1 from "../assets/dissertatsiyaimg1.png";
 import dissertatsiyaimg2 from "../assets/dissertatsiyaimg2.png";
-import LocationWebsite from "../Components/locationwebsite";
+import dissertatsiyaimg3 from "../assets/ilmiyish1.png";
 
 const dissertatsiyalar = [
   {
@@ -19,13 +19,20 @@ const dissertatsiyalar = [
     deadline: "2024 Sentabr",
     image: dissertatsiyaimg2,
   },
+  {
+    id:3,
+    name:"Zamonaviy o'zbek hujjatli kinosida film-portret janri",
+    description:"PHD Ismailov Kamoliddin Saidaxmadovich",
+    deadline:"2024 mart",
+    image:dissertatsiyaimg3
+  }
 ];
 
 const Dissertatsiya = () => {
   const point500 = useMediaQuery("(max-width:500px)");
   return (
     <Box>
-      <LocationWebsite name={"Dissertatsiya"}/>
+      {/* <LocationWebsite name={"Dissertatsiya"}/> */}
     <Box
       display={"flex"}
       sx={{

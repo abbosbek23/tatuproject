@@ -1,20 +1,16 @@
-// import React from 'react'
 import { Box, Typography, useMediaQuery } from "@mui/material";
-// import homeimg from '../assets/homeimage.jpg'
-// import homeimage from "../assets/tuitmainimage.png";
 import Bolimlar from "./bolimlar";
 import Slider from "./slider";
 import Slidersponsor from "./slidersponsor";
-// import ReactPlayer from 'react-player';
 import Homesliderimage from "./homesliderimage";
-import Locationwebsite from "../Components/locationwebsite";
+// import Locationwebsite from "../Components/locationwebsite";
 
 const Home = () => {
   const point620 = useMediaQuery("(max-width:620px)");
   return (
     <Box>
      <Box>
-      <Locationwebsite name={"Bosh sahifa"}/>
+      {/* <Locationwebsite name={"Bosh sahifa"}/> */}
       </Box> 
       <Box
         sx={{

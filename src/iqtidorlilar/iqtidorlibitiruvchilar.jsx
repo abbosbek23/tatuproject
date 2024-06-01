@@ -15,7 +15,7 @@ import Sertifikat3 from "../assets/Sertifikat3.jpg";
 import { Grid } from "@mui/material";
 import { useMediaQuery } from '@mui/material';
 import { createGlobalStyle } from 'styled-components';
-import LocationWebsite from "../Components/locationwebsite";
+// import LocationWebsite from "../Components/locationwebsite";
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
@@ -94,7 +94,7 @@ const Iqtidorlibitiruvchilar = () => {
   const point620 = useMediaQuery("(max-width:620px)");
   return (
     <>
-        <LocationWebsite name={"Iqtidorlilar"}/>
+        {/* <LocationWebsite name={"Iqtidorlilar"}/> */}
       <Box sx={{ width: "100%", paddingInline: point620 ? "0px" : "50px", marginBlock: "20px" }}>
         <Typography
           sx={{

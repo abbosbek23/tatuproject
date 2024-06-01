@@ -9,7 +9,7 @@ import multi from "../assets/multi.png";
 import video from "../assets/video.png";
 import yoritish from "../assets/yoritish.png";
 import Teachers from "./oqituvchilar";
-import LocationWebsite from '../Components/locationwebsite';
+// import LocationWebsite from '../Components/locationwebsite';
 
 const magistraturayonalishlar = [
   {
@@ -77,7 +77,7 @@ const About = () => {
   const point560 = useMediaQuery("(max-width: 560px)");
   return (
     <Box>
-      <LocationWebsite name={"Kafedra"} />
+      {/* <LocationWebsite name={"Kafedra"} /> */}
       <Box
         sx={{
           display: "flex",

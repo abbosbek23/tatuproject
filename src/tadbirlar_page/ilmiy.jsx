@@ -5,7 +5,7 @@ import { Typography } from '@mui/material';
 import { tadbirlar_photo } from "./tadbirlardata";
 import { useMediaQuery } from '@mui/material';
 import "./index.css";
-import LocationWebsite from "../Components/locationwebsite";
+// import LocationWebsite from "../Components/locationwebsite";
 
 const Ilmiy = () => {
     const point770 = useMediaQuery("(max-width:770px)");
@@ -19,7 +19,7 @@ const Ilmiy = () => {
 
   return (
     <Box>
-        <LocationWebsite name={"Tadbirlar/Ilmiy va uslubiy"}/>
+        {/* <LocationWebsite name={"Tadbirlar/Ilmiy va uslubiy"}/>   */}
         <Typography
          sx={{
           fontSize: point500 ? "18px" : "24px",
