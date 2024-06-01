@@ -45,8 +45,8 @@ const Navbar = () => {
               }}
               alt="logo"
             />
-            <p
-              style={{
+            <Typography
+              sx={{
                 width: "200px",
                 whiteSpace: "wrap",
                 marginRight: "0px",
@@ -54,20 +54,24 @@ const Navbar = () => {
                 marginLeft: "10px",
                 lineHeight: "14px",
                 fontWeight: "500",
+                "@media (max-width:450px)":{fontSize:"11px",marginLeft:"5px",width:"137px"}
               }}
             >
               Televizion texnologiyalar fakulteti Televizion va media
               texnologiyalar kafedrasi
-            </p>
+            </Typography>
           </Link>
         </Box>
         <Box
           sx={{
             position: point1100 && "absolute",
-            zIndex: point1100 && "1",
+            zIndex: point1100 && "3",
             top: point1100 && "0",
-            right: point1100 && (clicked ? "0" : "-300px"),
-            width: point1100 ? "300px" : "770px",
+            right: point1100 && (clicked ? "0" : "-400px"),
+            paddingTop: point1100 && "100px",
+            textAlign: "center",
+            width: point1100 ? "100%" : "770px",
+            height: point1100 ? "100%" : "",
             display: "flex",
             flexDirection: point1100 && "column",
             transition: "linear all 300ms",
@@ -91,7 +95,7 @@ const Navbar = () => {
             style={{
               borderBottom: point1100 && "1px solid #000",
               
-             
+              color: point620 && "black",
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -103,7 +107,7 @@ const Navbar = () => {
             style={{
               borderBottom: point1100 && "1px solid #000",
               
-              
+              color: point620 && "black",
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -114,8 +118,7 @@ const Navbar = () => {
           <a
             style={{
               borderBottom: point1100 && "1px solid #000",
-              
-              
+              color: point620 && "black",
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -126,8 +129,7 @@ const Navbar = () => {
           <a
             style={{
               borderBottom: point1100 && "1px solid #000",
-              
-              
+              color: point620 && "black",
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -138,8 +140,7 @@ const Navbar = () => {
           <a
             style={{
               borderBottom: point1100 && "1px solid #000",
-              
-              
+              color: point620 && "black",
               margin: point1100 && "0",
               padding: point1100 && "25px 15px",
             }}
@@ -158,7 +159,7 @@ const Navbar = () => {
             }}
             onClick={() => setClicked(true)}
           >
-            <Typography>Menu</Typography>
+            <Typography sx={{color:"white"}}>Menu</Typography>
           </button>
         )}
       </Box>

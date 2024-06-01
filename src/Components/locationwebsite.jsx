@@ -5,9 +5,11 @@ import imageLocation from '../assets/locationimage.png';
 
 const LocationWebsite = ({ name }) => {
   return (
-    <Box sx={{width: '100%',paddingInline:"100px", height: '150px', backgroundColor: '#2e3842', display: 'flex', alignItems: 'center',  }}>
-      <Typography sx={{color:"white"}} variant="h5">{name}</Typography>
-      <img src={imageLocation} style={{marginRight:"0px"}} width={160} height={140} alt="" />
+    <Box sx={{width: '100%',paddingInline:"100px", height: '150px', backgroundColor: '#2e3842', display: 'flex', alignItems: 'center',"@media (max-width:450px)":{paddingInline:"15px"} }}>
+      <Typography sx={{color:"white","@media (max-width:450px)":{fontSize:"16px"}}} variant="h5">{name}</Typography>
+      <Box sx={{width:"160px",height:"140px",marginRight:"0px", "@media (max-width:450px)":{width:"100px",height:"100px",marginRight:"0px"}}}>
+      <img src={imageLocation} style={{marginRight:"0px"}} width={"100%"} height={"100%"} alt="" />
+      </Box>
     </Box>
   );
 } 

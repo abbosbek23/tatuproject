@@ -77,7 +77,7 @@ a:hover {
 }
 
 .burgerBtn::before {
-  content: "✕";
+  content: "";
   font-size: 24px;
   color: black;
 }
