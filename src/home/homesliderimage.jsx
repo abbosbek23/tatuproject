@@ -37,7 +37,7 @@ const Homesliderimage = () => {
         breakpoints={{
           350: {
             slidesPerView: 1,
-            height: "40vh",
+            height: "60vh",
             pagination: false,
             navigation: false,
           },
