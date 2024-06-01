@@ -41,17 +41,17 @@ const Homesliderimage = () => {
         // ))
         }
         <SwiperSlide>
-          <img style={{objectFit:"fill",width:"100%"}} src={homeimage} alt="sponsor" />
+          <img style={{objectFit:"cover",width:"100%",height:"100%"}} src={homeimage} alt="sponsor" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{objectFit:"fill",width:"100%",height:"100%"}} src={tatumainimage} alt="sponsor" />
+          <img style={{objectFit:"cover",width:"100%",height:"100%"}} src={tatumainimage} alt="sponsor" />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{objectFit:"fill",width:"100%"}} src={homeimage2} alt="sponsor" />
+          <img style={{objectFit:"cover",width:"100%",height:"100%"}} src={homeimage2} alt="sponsor" />
         </SwiperSlide>  
          
         <SwiperSlide>
-          <img style={{objectFit:"fill",width:"100%"}} src={homeimage3} alt="sponsor" />
+          <img style={{objectFit:"cover",width:"100%",height:"100%"}} src={homeimage3} alt="sponsor" />
         </SwiperSlide>
           
       </Swiper>
