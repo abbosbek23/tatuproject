@@ -60,12 +60,12 @@ const Homesliderimage = () => {
           <img style={{
             // objectFit:"cover"
             // ,
-            width:"100%",height:"100%","@media (max-width:450px)":{objectFit:"none",width:"100%"}}} src={homeimage} alt="sponsor" />
+            width:"100%",height:"100%","@media (max-width:450px)":{width:"100%"}}} src={homeimage} alt="sponsor" />
         </SwiperSlide>
         <SwiperSlide>
           <img style={{
             // width:"100%",maxWidth:"100%",height:"100%","@media (max-width:450px)":{objectFit:"none",width:"100%",maxWidth:"100%",height:"100%"}
-            objectFit:"cover",width:"100%",height:"100%","@media (max-width:450px)":{objectFit:"none",width:"100%"}  
+            objectFit:"cover",width:"100%",height:"100%","@media (max-width:450px)":{width:"100%"}  
             }} src={homeimage1} alt="sponsor" />
         </SwiperSlide>
         <SwiperSlide>
