@@ -25,7 +25,7 @@ const Manaviy = () => {
         fontSize: point500 ? "18px" : "24px",
         marginLeft: point770 ? "30px" : "145px",
       }}>
-      Manaviy va Marifiy tadbirlar
+      {"Ma'naviy va Marifiy tadbirlar"}
       </Typography>
       <Box
         sx={{

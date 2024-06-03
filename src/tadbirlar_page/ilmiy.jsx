@@ -50,7 +50,7 @@ const Ilmiy = () => {
           </div>
         </div>
         <Typography sx={{ fontSize: point500 && "13px", marginTop: "10px" }}>
-          {tadbirlar_photo[0].description}
+          {tadbirlar_photo[4].description}
         </Typography>
       </Box>
       <Box
