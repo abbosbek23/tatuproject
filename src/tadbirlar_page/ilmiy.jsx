@@ -40,8 +40,8 @@ const Ilmiy = () => {
         }}
       >
         <div className="image-grid">
-          <div className="main-image">
-            <img src={image[0]} width={"99%"} height={"100%"} alt="Main" />
+          <div className="main-images">
+            <img src={image5[0]} width={"99%"} height={"100%"} alt="Main" />
           </div>
           <div className="side-imagess">
             {image5.slice(1, 3).map((image, index) => (

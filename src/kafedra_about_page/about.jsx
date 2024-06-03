@@ -80,7 +80,7 @@ const About = () => {
       {/* <LocationWebsite name={"Kafedra"} /> */}
       <Box
         sx={{
-          // display: "flex",
+          display: "flex",
           alignItems: "center",
           padding: point560 ? "10px 50px" : "20px 100px",
           marginBlock: "0px 50px",
