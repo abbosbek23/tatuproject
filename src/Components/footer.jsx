@@ -14,7 +14,7 @@ const malumotlar = [
   },
   {
     id: 2,
-    text: "Telefon: +998 71 238 64 15",
+    text: "Telefon: +998 71 238 65 61",
   },
   {
     id: 3,

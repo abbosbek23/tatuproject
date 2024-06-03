@@ -6,6 +6,7 @@ import iqtidorlibitiruvchilar22 from "../assets/iqtidorlibitiruvchilar2.jpg";
 import iqtidorlibitiruvchilar33 from "../assets/iqtidorlibitiruvchilar3.jpg";
 import iqtidorlibitiruvchilar44 from "../assets/iqtidorlibitiruvchilar4.jpg";
 import iqtidorlibitiruvchilar5 from "../assets/iqtidorlibitiruvchilar5.jpg";
+import iqtidorlibitiruvchilar6 from "../assets/iqtidorlibitiruvchilar6.jpg";
 import Sertifikategasi1 from "../assets/Sertifikategasi1.jpg";
 import Sertifikategasi2 from "../assets/Sertifikategasi2.jpg";
 import Sertifikategasi3 from "../assets/Sertifikategasi3.png";
@@ -53,6 +54,12 @@ const iqtidorlibitiruvchilar = [
     name:"Asror Iskandarov",
     description:"Shaxsiy Brend qurish Tajriba +4-yil, Mediatech It School asoschisi va rahbari",
     image:iqtidorlibitiruvchilar5,
+  },
+  {
+    id:6,
+    name:"Shoxislom  Joldasov",
+    description:"Muhammad al-Xorazmiy nomidagi Toshkent Axborot Texnologiyalari Universiteti Media Markazi direktori",
+    image:iqtidorlibitiruvchilar6,
   }
 ];
 
@@ -110,8 +117,8 @@ const Iqtidorlibitiruvchilar = () => {
         <Grid container spacing={2} sx={{ paddingInline: "30px" }}>
           {iqtidorlibitiruvchilar.map((teacher) => (
             <Grid item xs={12} sm={6} md={4} lg={4} key={teacher.id}>
-              <div style={{border:"1px solid black",padding:"20px",width:"100%",height:"600px",borderRadius:"10px",borderColor:"#B5B5B5",textAlign:"center"}}>
-                <img style={{marginLeft:"0px",height:"76%",objectFit:"cover"}} width={"100%"}  src={teacher.image} alt={teacher.name} />
+              <div style={{border:"1px solid black",padding:"20px",width:"100%",height:"650px",borderRadius:"10px",borderColor:"#B5B5B5",textAlign:"center"}}>
+                <img style={{marginLeft:"0px",height:"78%",objectFit:"cover"}} width={"100%"}  src={teacher.image} alt={teacher.name} />
                 <Typography className="text2" sx={{ marginInline: "10px",fontSize:point620 ? "14px":"18px" }}>
                   {teacher.name}
                 </Typography>
@@ -133,7 +140,7 @@ const Iqtidorlibitiruvchilar = () => {
           }}
           className="text2"
         >
-          {"Iqtidorli O'quvchilar"}
+          Kafedraga biriktiligan talabalar Muhammad al-Xorazmiy nomidagi stipendiya sohiblari
         </Typography>
         <Grid container spacing={2} sx={{ paddingInline: "30px" }}>
           {iqtidorlioquvchilar.map((teacher) => (

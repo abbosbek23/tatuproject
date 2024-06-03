@@ -31,7 +31,7 @@ const teacherData = [
     { id: 11, name: "Saliyev Marat Maxmudovich", profession: "katta o‘qituvchi", image: teacher11 },
     { id: 12, name: "Modullayev Jahongir Sobir o‘g‘li", profession: "katta o'qituvchi", image: teacher12 },
     { id: 13, name: "Tastanova Saida Aldiyarovna", profession: "assistent", image: teacher13 },
-    {id: 14, name: "Ortiqova Feruza", profession: "katta o'qituvchi", image: teacher15}
+    {id: 14, name: "Ortiqova Feruza", profession: "amaliyot o'qituvchi", image: teacher15}
   ];
 
 const Teachers = () => {

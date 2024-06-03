@@ -80,7 +80,7 @@ const About = () => {
       {/* <LocationWebsite name={"Kafedra"} /> */}
       <Box
         sx={{
-          display: "flex",
+          // display: "flex",
           alignItems: "center",
           padding: point560 ? "10px 50px" : "20px 100px",
           marginBlock: "0px 50px",
@@ -94,13 +94,13 @@ const About = () => {
           style={{
             marginLeft: "0px",
             marginRight: "30px",
-            width: point750 ? "300px" : "350px",
-            height: point750 ? "300px" : "350px",
+            width: point750 ? "200px" : "350px",
+            height: point750 ? "200px" : "300px",
             borderRadius: "38% 62% 100% 0% / 0% 100% 0% 100% ",
           }}
           alt="kafedramudiri"
         />
-        <Box sx={{ marginTop: "50px" }}>
+        <Box sx={{ marginTop: "30px" }}>
           <Typography
             sx={{
               fontSize: point560 ? "17px" : "20px",

@@ -22,6 +22,9 @@ import otochirish2 from "../assets/otochirish2.jpg"
 import otochirish3 from "../assets/otochirish3.jpg"
 import otochirish4 from "../assets/otochirish4.jpg"
 import otochirish5 from "../assets/otochirish5.jpg"
+import phd1 from "../assets/phd1.jpg"
+import phd2 from "../assets/phd2.jpg"
+import phd3 from "../assets/phd3.jpg"
 
 export const tadbirlar_photo = [
     {
@@ -43,5 +46,10 @@ export const tadbirlar_photo = [
         id: 4,
         description: "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti va O‘zbekiston Respublikasi Favqulodda vaziyatlar Vazirligi Fuqaro muhofazasi instituti bilan hamkorlikda \"Favqulodda vaziyatlarda to‘g‘ri harakatlanish va fuqaro muhofazasi\" bo‘yicha bilimlarini oshirish hamda tayyorgarlik ko‘rish bo‘yicha malaka oshirish darslari tashkil etildi.",
         image: [otochirish1, otochirish2, otochirish3, otochirish4, otochirish5]
+   },
+   {
+        id:5,
+        description:"Kafedramiz o’qituvchisi Ismailov Kamolitdin Saidaxmadovichning “Zamonaviy o‘zbek hujjatli kinosida film-portret janri” mavzusida 17.00.03 – Kino san’ati. Televideniye ixtisosligi bo‘yicha falsafa doktori (PhD) ilmiy darajasini olish uchun yozilgan dissertatsiya ishini muvaffaqiyatli himoya qildi!",
+        image:[phd1,phd2,phd3]      
    }
 ]

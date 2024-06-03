@@ -6,26 +6,27 @@ import dissertatsiyaimg3 from "../assets/ilmiyish1.png";
 
 const dissertatsiyalar = [
   {
-    id: 1,
+    id:1,
+    name:"Zamonaviy o'zbek hujjatli kinosida film-portret janri",
+    description:"PHD Ismailov Kamoliddin Saidaxmadovich",
+    deadline:"2024 mart",
+    image:dissertatsiyaimg3
+  },
+  {
+    id: 2,
     name: "Genetik algoritmlar yordamida fraktal tasvirlarni sintez qilish",
     description: "t.f.d., professor Nuraliyev Faxriddin Murodullayevich",
     deadline: "2024 Iyun",
     image: dissertatsiyaimg1,
   },
   {
-    id: 2,
+    id: 3,
     name: "Parvozda zararkunanda hashorotlar haqida ma’lumot beruvchi Smart monitoring majmuasini ishlab chiqish",
     description: "t.f.d., professor Zaynidinov Hakimjon Nasritdinovich",
     deadline: "2024 Sentabr",
     image: dissertatsiyaimg2,
   },
-  {
-    id:3,
-    name:"Zamonaviy o'zbek hujjatli kinosida film-portret janri",
-    description:"PHD Ismailov Kamoliddin Saidaxmadovich",
-    deadline:"2024 mart",
-    image:dissertatsiyaimg3
-  }
+  
 ];
 
 const Dissertatsiya = () => {
