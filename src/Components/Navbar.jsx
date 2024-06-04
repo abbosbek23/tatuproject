@@ -65,15 +65,15 @@ const Navbar = () => {
         <Box
           sx={{
             position: point620 && "absolute",
-            overflow: point620 && "hidden",
+            
             zIndex: point620 && "3",
             top: point620 && "0",
             right: point620 && (clicked ? "0" : "-500px"),
             paddingTop: point620 && "100px",
             textAlign: "center",
             width: point620 ? "100%" : "770px",
-            height: point620 ? "100%" : "",
-            display: "flex",
+            height: point620 ? "auto" : "",
+            display: clicked === true ? "flex":"none",
             flexDirection: point620 && "column",
             transition: "linear all 300ms",
             background: point620 && "white", // Add background for mobile view
