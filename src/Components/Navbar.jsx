@@ -21,6 +21,7 @@ const Navbar = () => {
           alignItems: "center",
           backgroundColor:"#212529",
           padding:"10px",
+          
         }}
       >
         <Box display={"flex"}>
@@ -65,16 +66,14 @@ const Navbar = () => {
         <Box
           sx={{
             position: point620 && "absolute",
-            
             zIndex: point620 && "3",
             top: point620 && "0",
             right: point620 && (clicked ? "0" : "-500px"),
             paddingTop: point620 && "100px",
             textAlign: "center",
             width: point620 ? "100%" : "770px",
-            height: point620 ? "100vh":"100vh",
-            
-            display: clicked === true ? "flex":"none",
+            height: point620 ? "auto" : "",
+            display: point620 ? (clicked ? "flex" : "none") : "flex",
             flexDirection: point620 && "column",
             transition: "linear all 300ms",
             background: point620 && "white", // Add background for mobile view
