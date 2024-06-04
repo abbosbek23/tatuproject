@@ -65,7 +65,7 @@ const Navbar = () => {
         <Box
           sx={{
             position: point620 && "absolute",
-            overflow: "hidden",
+            overflow: point620 && "hidden",
             zIndex: point620 && "3",
             top: point620 && "0",
             right: point620 && (clicked ? "0" : "-500px"),
