@@ -72,7 +72,7 @@ const Navbar = () => {
             paddingTop: point620 && "100px",
             textAlign: "center",
             width: point620 ? "100%" : "770px",
-            height: point620 ? "auto" : "",
+            height: point620 ? "800px" : "",
             display: point620 ? (clicked ? "flex" : "none") : "flex",
             flexDirection: point620 && "column",
             transition: "linear all 300ms",
