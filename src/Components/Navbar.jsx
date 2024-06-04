@@ -19,9 +19,12 @@ const Navbar = () => {
           justifyContent: "center",
           marginTop: "0px",
           alignItems: "center",
-          backgroundColor:"#212529",
-          padding:"10px",
-          
+          backgroundColor: "#212529",
+          padding: "10px",
+          position: "fixed", // Add this line to make the box fixed
+          top: "0px", // Ensure the box is positioned at the top
+          left: "0", // Ensure the box covers the full width
+          zIndex: "999", // Ensure the box is above other elements
         }}
       >
         <Box display={"flex"}>

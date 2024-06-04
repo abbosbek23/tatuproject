@@ -32,7 +32,7 @@ const dissertatsiyalar = [
 const Dissertatsiya = () => {
   const point500 = useMediaQuery("(max-width:500px)");
   return (
-    <Box>
+    <Box sx={{marginTop:"90px"}}>
       {/* <LocationWebsite name={"Dissertatsiya"}/> */}
     <Box
       display={"flex"}
@@ -41,6 +41,7 @@ const Dissertatsiya = () => {
         flexWrap: "wrap",
         gap: "25px",
         padding: "80px 0",
+        
       }}
     >
       {dissertatsiyalar.map((item) => (

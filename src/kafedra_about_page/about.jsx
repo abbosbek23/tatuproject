@@ -83,7 +83,7 @@ const About = () => {
           display: "flex",
           alignItems: "center",
           padding: point560 ? "10px 50px" : "20px 100px",
-          marginBlock: "0px 50px",
+          marginBlock: "90px 50px",
           background:
             "#095b97",
           flexDirection: point750 && "column",

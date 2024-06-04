@@ -102,7 +102,7 @@ const Iqtidorlibitiruvchilar = () => {
   return (
     <>
         {/* <LocationWebsite name={"Iqtidorlilar"}/> */}
-      <Box sx={{ width: "100%", paddingInline: point620 ? "0px" : "50px", marginBlock: "20px" }}>
+      <Box sx={{ width: "100%", paddingInline: point620 ? "0px" : "50px", marginBlock: "90px 20px" }}>
         <Typography
           sx={{
             fontSize: "24px",

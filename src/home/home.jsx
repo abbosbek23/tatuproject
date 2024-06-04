@@ -14,6 +14,7 @@ const Home = () => {
       </Box> 
       <Box
         sx={{
+          marginTop:"90px",
           marginBottom: "30px",
         }}
       >

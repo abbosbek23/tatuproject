@@ -18,7 +18,7 @@ const Manaviy = () => {
     const image4 = images[3];
 
   return (
-    <Box>
+    <Box sx={{marginTop:"90px"}}>
         {/* <LocationWebsite name={"Tadbirlar/Manaviy va Madaniy"}/> */}
         <Typography 
        sx={{

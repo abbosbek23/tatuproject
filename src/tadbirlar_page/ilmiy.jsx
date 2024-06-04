@@ -19,7 +19,7 @@ const Ilmiy = () => {
 
 
   return (
-    <Box>
+    <Box sx={{marginTop:"90px"}}>
         {/* <LocationWebsite name={"Tadbirlar/Ilmiy va uslubiy"}/>   */}
         <Typography
          sx={{
