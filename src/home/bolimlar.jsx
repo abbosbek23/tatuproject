@@ -17,27 +17,27 @@ const bolim = [
   },
   {
     id: 2,
-    name: "tadbirlar",
+    name: "ma'naviy va ma'rifiy tadbirlar ",
     img: tadbirlaricon,
-    path:"/tadbirlar"
+    path:"/manaviy"
   },
   {
     id: 3,
-    name: "guruhlar",
+    name: "o'quv va uslubiy tadbirlar",
     img: guruhlaricon,
-    path:"/guruhlar"
+    path:"/ilmiy"
   },
   {
     id: 4,
-    name: "iqtidorli talabalar",
-    img: iqtidorlitalabalaricon,
-    path:"/iqtidorlilar"
+    name: "ilmiy ishlar",
+    img: dissertatsiyaicon,
+    path:"/dissertatsiya"
   },
   {
     id: 5,
-    name: "dissertatsiya",
-    img: dissertatsiyaicon,
-    path:"/dissertatsiya"
+    name: "iqtidorli talabalar",
+    img: iqtidorlitalabalaricon,
+    path:"/iqtidorlilar"
   },
   
 ];
@@ -53,6 +53,7 @@ const Bolimlar = () => {
               sx={{
                 width: point620 ? "100%" : "170px",
                 textAlign: "center",
+                height: "188px",
                 // marginBlock: "40px",
                 boxShadow: "0px 0px 2px 1px #dbdbdb",
                 padding: "10px",
@@ -76,7 +77,7 @@ const Bolimlar = () => {
               <Typography
                 sx={{
                   fontSize: point620 ? "12px" : "20px",
-                  whiteSpace: "nowrap",
+                  whiteSpace: "wrap",
                   textTransform: "capitalize",
                 }}
               >
